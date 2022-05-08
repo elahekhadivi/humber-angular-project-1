@@ -8,10 +8,21 @@ export interface RawProductData
   inventory_level: number;
   image: string;
 }
+export interface ProductData{
+  item_name: string;
+  item_description: string;
+  image: string;
+}
 
-class ProductData
+function ProductData(rawProductData: RawProductData): ProductData
 {
-  
+  const ProductData ={
+    rawProductData.item_name,
+    
+    rawProductData.item_description,
+    rawProductData.image,
+  }
+  return ProductData;
 }
 
 @Component({
