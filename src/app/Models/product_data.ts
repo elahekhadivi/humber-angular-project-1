@@ -66,8 +66,5 @@ const rawData: RawProductData[] = [
   }
   ]
 
-  const productData: ProductData[] =[];
-  rawData.forEach(data => {const newData = new ProductData(data);
-    productData.push(newData);
-  })
-  export {productData};
+  const productData:ProductData[] = rawData.map(data=>new ProductData(data));
+  export {productData}

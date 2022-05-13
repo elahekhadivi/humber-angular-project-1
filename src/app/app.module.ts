@@ -10,6 +10,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { CardsComponentComponent } from './components/card/card.component';
+import { CardsComponent } from './components/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CardsComponentComponent } from './components/card/card.component';
     SearchBarComponent,
     ModalComponent,
     NavBarComponent,
-    CardsComponentComponent
+    CardsComponentComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,

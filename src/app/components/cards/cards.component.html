@@ -1,0 +1,6 @@
+<div class="card-container"></div>
+<div class="card" *ngFor="let el of cards">
+    <div>{{el.title}}</div>
+    <div><img [src] = el.imageURL></div>
+    <div>{{el.description}}</div>
+</div>
