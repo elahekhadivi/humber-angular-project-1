@@ -1,4 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { ProductData } from 'src/app/Models/product_data';  
 
 @Component({
   selector: 'modal',
