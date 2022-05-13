@@ -9,7 +9,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import { CardsComponentComponent } from './components/card/card.component';
 import { CardsComponent } from './components/cards/cards.component';
 
 @NgModule({
@@ -18,7 +17,6 @@ import { CardsComponent } from './components/cards/cards.component';
     SearchBarComponent,
     ModalComponent,
     NavBarComponent,
-    CardsComponentComponent,
     CardsComponent
   ],
   imports: [
