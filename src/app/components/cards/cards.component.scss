@@ -16,12 +16,14 @@
     min-height: 150px;
     flex-grow: 1;
     border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
     // the following code is to make sure that we can align the image in the center
     // align-self needs to be within a container that has display: flex
     display: flex;
     flex-flow: column wrap;
-    cursor: pointer;
-    h1, p {margin-top: 12px;
+    justify-self: center;
+    h1{margin-top: 12px;
         margin-left: 10px;
         }
         img {

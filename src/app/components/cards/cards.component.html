@@ -1,6 +1,7 @@
-<div class="card-container"></div>
+<div class="card-container" (click)="onCardClick()">
 <div class="card" *ngFor="let el of cards">
-    <div>{{el.title}}</div>
+    <h1>{{el.title}}</h1>
     <div><img [src] = el.imageURL></div>
     <div>{{el.description}}</div>
+</div>
 </div>
